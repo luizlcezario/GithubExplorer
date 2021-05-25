@@ -1,7 +1,8 @@
 # Desafio proposto em pela RockSeat 
 
 Nesse desafio criamos um pequeno site onde voce pode buscar por repositorios no github 
-usando sua api. 
+usando sua api. termiado 10/10/2020.(desatualizado)
+
 
 
 ### `yarn start`
