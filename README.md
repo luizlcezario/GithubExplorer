@@ -29,6 +29,19 @@
   </sub>
 </div>
 
+# :computer: ScrensShots do Site 
+
+* **Pagina Principal** 
+<div >
+  <img src="./.github/home.png" width="500">
+  <img src="./.github/home_pesquisando.png" width="500">
+<div>
+
+* **Pagina do Repositorio** 
+<div >
+  <img src="./.github/pag_repo.png" width="500">
+<div>
+
 # :pushpin: Tabela de Conteúdo
 
 * [Tecnologias](#computer-tecnologias)
