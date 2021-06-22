@@ -9,7 +9,7 @@ import api from '../../services/api'
 interface RepositoryParams{
   repository:string;
 }
-interface Repository{
+interface RepositoryAtributes{
   full_name: string;
   description: string;
   stargazers_count:number;
@@ -30,7 +30,7 @@ interface Issue{
 }
 const Repository:React.FC = () => {
   const {params} = useRouteMatch<RepositoryParams>()
-  const [repository, setRepository] = useState<Repository | null>(null)
+  const [repository, setRepository] = useState<RepositoryAtributes | null>(null)
   const [issues, setIssues] = useState<Issue[]>([])
 
   useEffect(()=>{
